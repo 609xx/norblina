@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Apartment near Fabryka Norblina, Warsaw – Stay at Norblina.pl</title>
-  <meta name="description" content="Looking for an apartment or hotel near Fabryka Norblina in Warsaw? Stay just steps away in our modern Airbnb listing.">
-  <meta name="keywords" content="fabryka norblina apartment, norblina hotel, apartment near fabryka norblina, warsaw accommodation, airbnb warsaw norblina, booking.com">
-
+  <title>Apartament przy Fabryce Norblina w Warszawie – Zarezerwuj na Norblina.pl</title>
+  <meta name="description" content="Szukasz apartamentu lub hotelu blisko Fabryki Norblina w Warszawie? Zatrzymaj się w nowoczesnym mieszkaniu Airbnb, zaledwie kilka kroków od centrum wydarzeń.">
+  <meta name="keywords" content="apartament przy fabryce norblina, nocleg warszawa norblin, fabryka norblina apartament, hotel norblina, apartament warszawa centrum, airbnb warszawa, warsaw accommodation, fabryka norblina apartment, norblina hotel, booking warsaw, booking.com, airbnb warsaw norblina">
 
   <!-- Google Site Verification -->
   <meta name="google-site-verification" content="PMJghMoCOWAjPR_B4vLQvk-bVD8p5I3DsCO4Q46rubo" />
@@ -23,25 +22,96 @@
   </script>
 
   <style>
+    :root {
+      --main-bg: #f4f4f9;
+      --card-bg: #fff;
+      --primary: #0077cc;
+      --accent: #333;
+      --border-radius: 16px;
+    }
+
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--main-bg);
+      color: var(--accent);
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 20px;
+      background-color: var(--card-bg);
+      border-radius: var(--border-radius);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
       text-align: center;
-      padding-top: 50px;
-      background: #f9f9f9;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-bottom: 25px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin-bottom: 30px;
+    }
+
+    ul li {
+      background: #eef2f7;
+      margin: 10px 0;
+      padding: 12px 20px;
+      border-radius: 10px;
+      font-size: 1em;
+    }
+
+    a.cta {
+      display: inline-block;
+      background-color: var(--primary);
+      color: white;
+      padding: 14px 28px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 10px;
+      transition: background 0.3s ease;
+    }
+
+    a.cta:hover {
+      background-color: #005fa3;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.6em;
+      }
+
+      p, ul li {
+        font-size: 1em;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Stay Near Fabryka Norblina – Modern Apartment in the Heart of Warsaw</h1>
-  <p>Our Airbnb is located just a few minutes' walk from <strong>Fabryka Norblina</strong>, one of Warsaw’s trendiest cultural hubs. Whether you're visiting for nightlife, art, or food, our apartment offers the perfect home base.</p>
+  <div class="container">
+    <h1>Zamieszkaj przy Fabryce Norblina – Nowoczesny Apartament w Centrum Warszawy</h1>
+    <p>Nasze mieszkanie na Airbnb znajduje się zaledwie kilka minut spacerem od <strong>Fabryki Norblina</strong>, jednego z najmodniejszych miejsc kultury w Warszawie. Niezależnie czy przyjeżdżasz na wydarzenia kulturalne, jedzenie czy nocne życie – nasz apartament to idealna baza wypadowa.</p>
 
-  <h2>Why Stay With Us?</h2>
-  <ul>
-    <li>3-minute walk to Fabryka Norblina</li>
-    <li>Luxury amenities, high-speed WiFi, fully-equipped kitchen</li>
-    <li>Perfect for couples, solo travelers, and business trips</li>
-  </ul>
+    <h2>Dlaczego warto u nas nocować?</h2>
+    <ul>
+      <li>3 minuty pieszo do Fabryki Norblina</li>
+      <li>Luksusowe udogodnienia, szybkie WiFi, w pełni wyposażona kuchnia</li>
+      <li>Idealny dla par, podróżujących solo oraz na wyjazdy służbowe</li>
+    </ul>
 
-  <p><a href="YOUR_AIRBNB_LINK">Check Availability on Airbnb →</a></p>
+    <a class="cta" href="YOUR_AIRBNB_LINK">Sprawdź dostępność na Airbnb →</a>
+  </div>
 </body>
 </html>
